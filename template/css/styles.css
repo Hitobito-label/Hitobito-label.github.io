@@ -3082,11 +3082,11 @@ textarea.form-control-lg {
   --bs-gradient: none;
 }
 
-.btn-outline-light {
-  --bs-btn-color: #f8f9fa;
-  --bs-btn-border-color: #f8f9fa;
+.btn-outline-light { /* ruco submit btn */
+  --bs-btn-color: #c71585 ;
+  --bs-btn-border-color: #c71585 ;
   --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #f8f9fa;
+  --bs-btn-hover-bg: #c71585;
   --bs-btn-hover-border-color: #f8f9fa;
   --bs-btn-focus-shadow-rgb: 248, 249, 250;
   --bs-btn-active-color: #000;
@@ -10856,7 +10856,7 @@ html {
   width: 100%;
   max-width: 7rem;
   height: 0.25rem;
-  background-color: #ff3e50; /* ruco border color */
+  background-color: #ffffff; /* ruco border color white*/
   border-radius: 1rem;
   border-color: #2c3e50;
 }
@@ -10867,11 +10867,11 @@ html {
   margin-left: 1rem;
 }
 .divider-custom .divider-custom-icon {
-  color: #fc3e50; /* ruco divider */
+  color: #ff0000; /* ruco divider */
   font-size: 2rem;
 }
 .divider-custom.divider-light .divider-custom-line {
-  background-color: #0ff; /* ruco border color light */
+  background-color: #c71585; /* ruco border color light */
 }
 .divider-custom.divider-light .divider-custom-icon {
   color: #fff;
@@ -10905,10 +10905,10 @@ html {
   margin-top: 1rem;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link {
-  color: #f0f8ff; /* ruco navbar text */
+  color: #ffffff; /* ruco navbar text */
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #ffbc9c; /* ruco link active */
+  color: #c71585; /* ruco link active */
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
@@ -11038,8 +11038,8 @@ html {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #d2b48c; /*ruco footer*/
-  color: #0ff;
+  background-color: #dcdcdc; /*ruco footer*/
+  color: #000;
 }
 
 .copyright {
