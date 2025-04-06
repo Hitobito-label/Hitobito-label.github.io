@@ -42,10 +42,10 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 22, 122, 152; /* ruco main background */
-  --bs-secondary-rgb: 22, 122, 152; /* ruco top bar */
+  --bs-primary-rgb: 220, 220, 220; /* ruco main background */
+  --bs-secondary-rgb: 119, 136, 153; /* ruco top bar */
   --bs-success-rgb: 25, 135, 84;
-  --bs-info-rgb: 13, 202, 240;
+  --bs-info-rgb: 255, 255, 255; /* ruco section background */
   --bs-warning-rgb: 255, 193, 7;
   --bs-danger-rgb: 220, 53, 69;
   --bs-light-rgb: 248, 249, 250;
@@ -10899,13 +10899,13 @@ html {
   font-weight: 700;
 }
 #mainNav .navbar-brand {
-  color: #fff;
+  color: #f0e68c; /* ruco title text */
 }
 #mainNav .navbar-nav {
   margin-top: 1rem;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link {
-  color: #99e839; /* ruco navbar text */
+  color: #f0f8ff; /* ruco navbar text */
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
   color: #ffbc9c; /* ruco link active */
@@ -10936,7 +10936,7 @@ html {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #00ff9c; /* ruco navbar flow */
+    background: #c71585; /* ruco navbar flow */
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
@@ -11038,10 +11038,26 @@ html {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #0c3e50; /*ruco footer*/
+  background-color: #d2b48c; /*ruco footer*/
   color: #0ff;
 }
 
 .copyright {
-  background-color: #1a252f; /*ruco copy right*/
+  background-color: #778899; /*ruco copy right*/
 }
+
+.bandcamp-embeds {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  margin-top: 1.5em;
+}
+
+.bandcamp-embeds iframe {
+  max-width: 600px;
+}
+
+
+
+
