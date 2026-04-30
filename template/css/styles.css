@@ -42,7 +42,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 220, 220, 220; /* ruco main background */
+  --bs-primary-rgb: 255, 255, 255; /* ruco main background */
   --bs-secondary-rgb: 119, 136, 153; /* ruco top bar */
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 255, 255, 255; /* ruco section background */
@@ -10871,7 +10871,7 @@ html {
   font-size: 2rem;
 }
 .divider-custom.divider-light .divider-custom-line {
-  background-color: #c71585; /* ruco border color light */
+  background-color: #52cdce; /* ruco border color light */
 }
 .divider-custom.divider-light .divider-custom-icon {
   color: #fff;
