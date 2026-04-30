@@ -1,1 +1,0 @@
-# Hitobito-label.github.io
